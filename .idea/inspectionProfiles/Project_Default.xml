@@ -1,0 +1,41 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="{%" />
+            <item index="1" class="java.lang.String" itemvalue="url" />
+            <item index="2" class="java.lang.String" itemvalue="%}" />
+            <item index="3" class="java.lang.String" itemvalue="else" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="pytest" />
+            <item index="1" class="java.lang.String" itemvalue="Django" />
+            <item index="2" class="java.lang.String" itemvalue="pytest-django" />
+            <item index="3" class="java.lang.String" itemvalue="pytest-pythonpath" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="yatube.posts.tests.test_urls.PostsURLTests.*" />
+          <option value="yatube.posts.models.Post.*" />
+          <option value="yatube.posts.models.Group.*" />
+          <option value="telegram.ext.Filters" />
+          <option value="cats.models.Cat.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
